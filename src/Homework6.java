@@ -19,7 +19,7 @@ public class Homework6 {
         int passwordLength = yourPassword.length();
         char lastSymbol = yourPassword.charAt(passwordLength - 1);
         char checkSymbol = '!';
-        if ((6 > passwordLength) && (lastSymbol != checkSymbol)) {
+        if ((passwordLength < 6) && (lastSymbol != checkSymbol)) {
             System.out.println("Ваш пароль неверный");
         }
         else {
