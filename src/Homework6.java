@@ -19,13 +19,8 @@ public class Homework6 {
         int passwordLength = yourPassword.length();
         char lastSymbol = yourPassword.charAt(passwordLength - 1);
         char checkSymbol = '!';
-        if (lastSymbol != checkSymbol) {
-            if (6 > passwordLength) {
-                System.out.println("Ваш пароль неверный");
-            }
-            else {
-                System.out.println("пароль принят");
-            }
+        if ((6 > passwordLength) && (lastSymbol != checkSymbol)) {
+            System.out.println("Ваш пароль неверный");
         }
         else {
             System.out.println("пароль принят");
