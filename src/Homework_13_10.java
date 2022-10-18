@@ -13,7 +13,7 @@ public class Homework_13_10 {
 
         //Level 2
         int anyNumber = scanner.nextInt();
-        int factorial = 1; //формула факториала n! = 1 * … * (n-2) * (n-1) * n
+        int factorial = 1;
 
         while (anyNumber > 1) {
             factorial *= anyNumber;
