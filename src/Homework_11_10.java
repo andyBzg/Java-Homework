@@ -23,7 +23,7 @@ public class Homework_11_10 {
             System.out.println("Мери");
         }
         if (howFarIsJohn == roadLength / 2) {
-            System.out.println("Одинаково");
+            System.out.println("одинаково");
         }
         else {
             System.out.println("Шерлок");
