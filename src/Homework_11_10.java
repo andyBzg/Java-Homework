@@ -19,14 +19,14 @@ public class Homework_11_10 {
         int roadLength = scanner.nextInt();
         int howFarIsJohn = time * trainSpeed;
 
+        if (howFarIsJohn < roadLength / 2) {
+            System.out.println("Шерлок");
+        }
         if (howFarIsJohn > roadLength / 2) {
             System.out.println("Мери");
         }
         if (howFarIsJohn == roadLength / 2) {
             System.out.println("одинаково");
-        }
-        else {
-            System.out.println("Шерлок");
         }
     }
 }
