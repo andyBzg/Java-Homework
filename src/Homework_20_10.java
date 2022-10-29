@@ -18,9 +18,8 @@ public class Homework_20_10 {
         int secondNumber = scanner.nextInt();
         int answer = 0;
         while (secondNumber > 0) {
-            int i = 10;
             answer += secondNumber % 10;
-            secondNumber /= i;
+            secondNumber /= 10;
         }
         System.out.println("Сумма всех цифр этого числа = " + answer);
     }
